@@ -4,13 +4,16 @@ import os
 os.system('clear')
 
 def perfil(**dados):
-    string_result = []
+    for key, data in dados.items():
+        print(f'{key} = {data}')
 
-    
+nome = str(input('Nome: '))
+os.system('clear')
+idade = int(input('Idade: '))
+os.system('clear')
+curso = str(input('Curso: '))
+os.system('clear')
 
-    for par_name, data in dados.items():
-        
-        string_result.append(f'{par_name} = {data}\n')
+dados_str = perfil(nome=nome, idade=idade, curso=curso)
 
-    return string_result
 
