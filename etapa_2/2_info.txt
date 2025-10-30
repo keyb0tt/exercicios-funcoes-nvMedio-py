@@ -1,0 +1,11 @@
+🔹 2. Parâmetros Variáveis (*args e **kwargs)
+
+Objetivo: lidar com funções que recebem número indefinido de parâmetros.
+
+Crie uma função soma_todos(*numeros) que some todos os números passados.
+
+Crie uma função maior_valor(*valores) que retorne o maior entre todos os argumentos recebidos.
+
+Crie uma função perfil(**dados) que receba nome, idade e curso (como parâmetros nomeados) e retorne uma string formatada com as informações.
+
+Crie uma função media_notas(*notas) que calcule a média das notas passadas, independente da quantidade.
