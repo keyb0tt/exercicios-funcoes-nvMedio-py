@@ -1,0 +1,11 @@
+🔹 3. Manipulação de Estruturas dentro de Funções
+
+Objetivo: praticar manipulação de listas e dicionários.
+
+Crie uma função filtrar_pares(lista) que retorne apenas os números pares de uma lista.
+
+Crie uma função contar_palavras(lista_texto) que receba uma lista de frases e retorne quantas palavras há no total.
+
+Crie uma função remover_duplicatas(lista) que retorne uma nova lista sem elementos repetidos.
+
+Crie uma função contar_ocorrencias(lista) que retorne um dicionário com a contagem de cada elemento.
