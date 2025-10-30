@@ -1,0 +1,9 @@
+🔹 4. Funções Aninhadas (Funções dentro de Funções)
+
+Objetivo: criar funções internas e usá-las localmente.
+
+Crie uma função calculos(a, b) que tenha funções internas para somar, subtrair, multiplicar e dividir, retornando os quatro resultados em um dicionário.
+
+Crie uma função formatar_nome_completo(nome, sobrenome) que use uma função interna capitalizar() para deixar as iniciais maiúsculas.
+
+Crie uma função validador_senha(senha) que tenha uma função interna tem_numero() e outra tem_maiuscula(); retorne True se a senha for forte.
