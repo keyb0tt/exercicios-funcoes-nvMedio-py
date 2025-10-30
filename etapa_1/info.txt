@@ -1,0 +1,9 @@
+🔹 1. Retornos Múltiplos
+
+Objetivo: trabalhar com return de mais de um valor.
+
+Crie uma função operacoes(a, b) que retorne a soma, subtração, multiplicação e divisão de a e b.
+
+Crie uma função estatisticas(lista) que receba uma lista e retorne o valor máximo, mínimo e média.
+
+Crie uma função info_texto(texto) que retorne o número de caracteres, o número de palavras e o número de vogais.
