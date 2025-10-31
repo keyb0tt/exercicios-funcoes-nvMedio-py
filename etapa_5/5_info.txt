@@ -1,0 +1,11 @@
+🔹 5. Recursividade (Funções que chamam a si mesmas)
+
+Objetivo: entender a lógica de recursão simples.
+
+Crie uma função recursiva contagem_regressiva(n) que conte até zero.
+
+Crie uma função recursiva soma_n(n) que calcule a soma de 1 até n.
+
+Crie uma função recursiva fatorial(n) que calcule o fatorial (sem usar math).
+
+Crie uma função recursiva potencia(base, expoente) que calcule a potência sem usar o operador **.
