@@ -4,9 +4,6 @@ import os
 os.system('clear')
 
 def validador_senha(senha):
-    validador_num = False
-    validador_char = False
-
     def tem_numero(senha_def):
         int_filter = ''.join(filter(str.isdigit, senha_def))
 
@@ -14,12 +11,25 @@ def validador_senha(senha):
             return True
         else:
             return False
-    
+            
     def tem_maiuscula(senha_def):
-        for caracter in senha_def:
-            if isinstance(caracter, str) and caracter.upper() == caracter:
-                return True
+        upper_filter = ''.join(filter(str.isupper, senha_def))
+        
+        if len(upper_filter) > 0:
+            return True
+        else: 
+            return False
+            
+    validador_num = tem_numero(senha)
+    validador_char = tem_maiuscula(senha)
 
+    if validador_num and validador_char:
+        return True
+    else:
+        return False
 
-
-print(validador_senha('sexosemprotecao123.'))
+print(f'{validador_senha('teste123')=}')
+print(f'{validador_senha('teste')=}')
+print(f'{validador_senha('123')=}')
+print(f'{validador_senha('Teste')=}')
+print(f'{validador_senha('Teste123')=}')
