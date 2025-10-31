@@ -1,0 +1,7 @@
+🔹 6. Aplicações Práticas
+
+Objetivo: aplicar funções em mini-tarefas do dia a dia.
+
+Crie uma função converter_horas(minutos) que converta minutos em horas e minutos (ex: 125 → 2h 5min).
+
+Crie uma função temperaturas(celsius) que receba uma lista de temperaturas em °C e retorne uma lista com as mesmas em °F.
