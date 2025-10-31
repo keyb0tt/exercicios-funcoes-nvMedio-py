@@ -7,20 +7,19 @@ def validador_senha(senha):
     validador_num = False
     validador_char = False
 
-    def tem_numero(senha):
+    def tem_numero(senha_def):
+        int_filter = ''.join(filter(str.isdigit, senha_def))
+
+        if len(int_filter) > 0:
+            return True
+        else:
+            return False
+    
+    def tem_maiuscula(senha_def):
+        for caracter in senha_def:
+            if isinstance(caracter, str) and caracter.upper() == caracter:
+                return True
 
 
-        int_filter = int(''.join(filter(str.isdigit, senha)))
-        # senha_int = int(int_filter)
-        return int_filter
-        # for caracter in senha_int:
-            # return isinstance(caracter, int)
 
-    # def tem_maiuscula(senha):
-        # for caracter in senha:
-            # if isinstance(caracter, str) and caracter.upper() == caracter:
-                # return True
-
-
-
-print(validador_senha(123))
+print(validador_senha('sexosemprotecao123.'))
